@@ -1,0 +1,115 @@
+{
+	"scene": {
+		"name" : "Test scene"
+	},
+	"fixtures":
+	[
+		{
+			"name": "REDSHOW PAR36-12",
+			"channels" :
+			[
+				{
+					"number" : 1,
+					"name" : "Fader",
+					"initialValue" : 255
+				},
+				{
+					"number" : 2,
+					"name" : "Red",
+					"initialValue" : 0
+				},
+				{
+					"number" : 3,
+					"name" : "Green",
+					"initialValue" : 0
+				},
+				{
+					"number" : 4,
+					"name" : "Blue",
+					"initialValue" : 0
+				}
+				
+			]
+		}
+	],
+    "startAction":
+		{
+			"action": "off",
+			"channels" : "all",
+			"actionValues" :
+			{
+					"value": "0"
+			}
+		},
+    "stopAction":
+		{
+			"action": "off",
+			"channels" : "all",
+			"actionValues" :
+			{
+					"value": "0"
+			}
+		},
+
+	"actions":[
+		{
+			"fixture" : "REDSHOW PAR36-12",
+			"action": "constant",
+			"channels" : "1",
+			"actionValues" :
+			{
+					"startValue": "255"
+			}
+		},
+		{
+			"fixture" : "REDSHOW PAR36-12",
+			"disabled" : true,
+			"action": "fader",
+			"channels" : "3",
+			"actionValues" :
+			{
+					"step": "20", 
+					"interval": "5",
+					"startValue": "0"
+			}
+		},
+		{
+			"fixture" : "REDSHOW PAR36-12",
+			"disabled" : true,
+			"action": "fader",
+			"channels" : "4",
+			"actionValues" :
+			{
+					"step": "-10", 
+					"interval": "5",
+					"startValue": "255"
+			}
+		},
+		{
+			"fixture" : "REDSHOW PAR36-12",
+			"action": "onoff",
+			"channels" : "2",
+			"actionValues" :
+			{
+					"onStep": "3",
+					"offStep": "13",
+					"onValue": "255",
+					"offValue": "0",
+			}
+		},
+		
+		{
+			"fixture" : "REDSHOW PAR36-12",
+			"action": "onoff",
+			"channels" : "3",
+			"actionValues" :
+			{
+					"onStep": "5",
+					"offStep": "17",
+					"onValue": "255",
+					"offValue": "0",
+			}
+		}
+		
+	]
+}

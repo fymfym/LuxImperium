@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuxImperium-Console", "LuxImperium-Console\LuxImperium-Console.csproj", "{D440AC9C-9B0B-4B8A-87C6-77D42076AE5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{8425D12A-7A2B-48ED-A754-21F05C8C05C3}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuxImperium", "LuxImperium\LuxImperium.csproj", "{05625E07-322B-4A56-A1E4-D492D3346625}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuxImperium.Test", "LuxImperium.Test\LuxImperium.Test.csproj", "{06EC500D-89DD-4406-BC21-20A6685089E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D440AC9C-9B0B-4B8A-87C6-77D42076AE5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D440AC9C-9B0B-4B8A-87C6-77D42076AE5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D440AC9C-9B0B-4B8A-87C6-77D42076AE5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D440AC9C-9B0B-4B8A-87C6-77D42076AE5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05625E07-322B-4A56-A1E4-D492D3346625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05625E07-322B-4A56-A1E4-D492D3346625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05625E07-322B-4A56-A1E4-D492D3346625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05625E07-322B-4A56-A1E4-D492D3346625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06EC500D-89DD-4406-BC21-20A6685089E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06EC500D-89DD-4406-BC21-20A6685089E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06EC500D-89DD-4406-BC21-20A6685089E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06EC500D-89DD-4406-BC21-20A6685089E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
